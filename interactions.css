@@ -1,0 +1,48 @@
+.bottomCards {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.interaction {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background: white;
+  border-radius: 20px;
+}
+
+.interactionColumn {
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+}
+
+.interaction .interactionColumn .texts{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+} 
+.interaction .title {
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.interactionColumn span {
+  font-size: 10px;
+}
+
+.interactionColumn .texts {
+  justify-content: space-between;
+}
+
+
+.interactionColumn hr {
+  margin: 2px;
+  border-color: rgb(255, 255, 255);
+}
+

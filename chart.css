@@ -1,0 +1,7 @@
+.chart {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  border-radius: 12px;
+  background-color: white;
+}
